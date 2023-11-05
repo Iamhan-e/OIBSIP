@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+body{
+    background: linear-gradient(0deg, #05152e 9%, #bebbbb 100%);
+    font-family: 'Dancing Script', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+}
+
+.container{
+    column-gap: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    padding: 2rem;
+    border: none;
+    border-radius: 6px;
+    padding: 55px;
+    color: rgb(6, 74, 133);
+    background-color:transparent;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 6px;
+box-shadow: 12px 4px 20px -8px rgb(65, 63, 63);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+    
+}
+
+.form h2{
+    text-align: center;
+    margin-top:-1px ;
+}
+.form .form-field{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field input{
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    width: 20rem;
+    padding: .5rem;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 3px 3px 4px 0px #5e5e5e;
+}
+
+.form .signup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form .submit-btn{
+    cursor: pointer;
+    width: 35%;
+    height: 3rem;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0a2a5e;
+}
+
+.form .submit-btn:hover{
+    background-color: #10459b;
+}
+
+
+.link, a{
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ a:hover{
+    text-decoration: underline;
+    color: rgb(1, 1, 119);
+}
+
+.eye{
+    position: absolute;
+    right: 4rem;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.eye:hover{
+    color: rgb(14, 14, 119);
+}
+

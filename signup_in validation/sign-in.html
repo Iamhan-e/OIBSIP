@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="container">
+            <!-- sign in -->
+        <div class="form-container form"  >
+            <form action="" id="form-signin"  >
+               <h2>SIGN IN</h2> 
+               
+               <div class="form-field ">
+                
+                <input type="text" class="email" placeholder="email" id="email-in" required>
+               </div>
+               <div class="form-field ">
+               
+                <input type="password" class="password" placeholder="password" id="password-in" required>
+                <i class="fa fa-eye-slash eye"  aria-hidden="true" ></i>
+               </div>
+               
+               <div class="signup-btn">
+                <button type="submit" class="submit-btn" onclick="checkData()">Sign In</button>
+               </div>
+               <br>
+               <div >
+                <span style="font-size: 20px;text-align:center;"> No account? <a class="link"  href="sign-up.html" >Register</a></span>
+    
+               </div>
+            </form>
+            
+
+        </div>
+    </section>
+    <script src="sign-in.js"></script>
+</body>
+</html>

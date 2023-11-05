@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome, <span id="username">username</span>!</h1>
+    <p>This is your personalized message page.</p>
+
+    <script>
+        // Retrieve the username from local storage
+        const username = localStorage.getItem('username');
+
+        // Display the username in the HTML
+       
+            document.getElementById('username').textContent = username;
+        
+    </script>
+</body>
+</html>

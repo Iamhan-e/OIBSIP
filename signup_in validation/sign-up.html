@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="container">
+        <!-- signUp -->
+        <div class="form-container form" >
+            <form action="" id="form-signup"  >
+               <h2>SIGN UP</h2> 
+               <div class="form-field ">
+                <input type="text" class="username" placeholder="username" id="username-up" required>
+               </div>
+               <div class="form-field ">
+                <input type="text" class="email" placeholder="email" id="email-up" required>
+               </div>
+               <div class="form-field ">
+                <input type="password" class="password" placeholder="password" id="password-up" required>
+                <i class="fa fa-eye-slash eye" aria-hidden="true" ></i>
+               </div>
+               <div class="signup-btn">
+                <button type="submit" onclick="addData()" class="submit-btn">Sign Up</button>
+               </div>
+               <br>
+               <div>
+                <span>Already have an account? <a href="sign-in.html" class="link">Login</a></span>
+    
+               </div>
+            </form>
+            
+
+        </div>
+           </section>
+    <script src="sign-up.js"></script>
+</body>
+</html>

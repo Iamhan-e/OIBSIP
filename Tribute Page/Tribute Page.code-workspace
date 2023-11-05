@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Tribute Page",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "images"
+	}
+}

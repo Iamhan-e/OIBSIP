@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calc">
+            <input type="text" placeholder="0" id="input">
+
+            <div class="btns">
+                <button class="sign" onclick="ce()">CE</button>
+                <button class="sign" onclick="factorial()">x!</button>
+                <button class="sign">(</button>
+                <button class="sign" >)</button>
+                <button class="sign" id="toggleBtn" >rad</button>
+                <button class="art-sign " onclick="input.value=eval(input.value)" >=</button>
+                
+            </div>
+            <div class="btns">
+                <button class="sign" onclick="sin()">sin</button>
+                <button class="sign" onclick="pi()">π</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="art-sign btn">÷</button>
+            </div>
+            <div class="btns">
+                <button class="sign" onclick="cos()">cos</button>
+                <button class="sign" onclick="log()">log</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="art-sign btn">x</button>
+            </div>
+            <div class="btns">
+                <button class="sign" onclick="tan()">tan</button>
+                <button class="sign" onclick="sqrt()">√</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="art-sign btn">-</button>
+            </div>
+            <div class="btns">
+                <button class="sign" onclick="e()">e</button>
+                <button class="sign" onclick="pow()">x <span style="position: relative; bottom:0.4em; right:.1em;">2</span></button>
+                <button class="sign">.</button>
+                <button class="btn">0</button>
+                <button class="sign" onclick="input.value= '' ">AC</button>
+                <button class="art-sign btn">+</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js" >
+        
+    </script>
+</body>
+</html>
