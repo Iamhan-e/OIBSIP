@@ -90,9 +90,3 @@ body{
   
 }
 
-@media(max-width:989px){
-    #next {
-       display: inline;
-        
-    }
-}
